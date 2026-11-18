@@ -30,11 +30,13 @@ services:
   - type: web
     name: hfr-web
     runtime: static
-    region: singapore
     staticPublishPath: frontend
-    buildCommand: echo "window.HFR_CONFIG = { API_BASE: \"$API_BASE\" };" > frontend/config.js
+    buildCommand: |
+      printf 'window.HFR_CONFIG = { API_BASE: "%s" };\n' "$API_BASE" > frontend/config.js
     envVars:
-      - key: API_BASE              # the API URL, e.g. https://hfr-api.onrender.com (no trailing slash)
+      - key: PYTHON_VERSION        # the root requirements.txt is installed too; match the version it was tested on
+        value: "3.12.8"
+      - key: API_BASE            # the API URL, e.g. https://hfr-api.onrender.com (no trailing slash)
         sync: false
     routes:
       - type: rewrite
