@@ -1,0 +1,28 @@
+# secrets and local config
+.env
+*.env.local
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# node / editors / OS
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# scraped data dumps and raw captures stay out of git
+data/raw/
+data/*.sql
+data/*.dump
+*.log
+
+# browser captures contain personal contact details: never commit
+nhpr-capture-*.json
