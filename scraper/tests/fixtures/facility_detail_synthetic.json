@@ -1,0 +1,9 @@
+{
+  "_comment": "SYNTHETIC single-facility details response wrapped in data{}. Not real NHPR data.",
+  "data": {
+    "facilityId": "IN3200000002", "facilityName": "Sample City Clinic",
+    "stateLGDCode": "32", "districtLGDCode": "590",
+    "subDistrictName": "Kollam Taluk", "subDistrictLGDCode": "5901",
+    "totalBeds": 12, "icuBeds": 0, "photoUrl": "https://example.invalid/photo.png"
+  }
+}

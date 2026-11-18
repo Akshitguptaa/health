@@ -1,0 +1,62 @@
+{
+  "_comment": "SYNTHETIC test data in the shape of Appendix B. Not real NHPR data.",
+  "facilities": [
+    {
+      "facilityId": "IN3200000001", "facilityName": "Example Heart and Multispeciality Hospital",
+      "facilityStatus": "Approved", "ownership": "Private", "ownershipCode": "P",
+      "facilityType": "Hospital", "facilityTypeCode": "HOSP",
+      "systemOfMedicine": "Modern Medicine", "systemOfMedicineCode": "MM",
+      "stateName": "Kerala", "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590",
+      "address": "12 Example Road, Chinnakada", "pincode": "691001",
+      "latitude": "8.8850", "longitude": "76.5900", "hasIcuBeds": "Yes", "abdmSoftware": "Yes",
+      "totalBeds": 50, "icuBeds": 8, "specialities": ["Cardiology", "Paediatrics"]
+    },
+    {
+      "facilityId": "IN3200000002", "facilityName": "  SAMPLE   CITY   CLINIC ",
+      "facilityStatus": "Submitted", "ownership": "Government", "ownershipCode": "G",
+      "facilityType": "Clinic", "facilityTypeCode": "CLIN",
+      "systemOfMedicine": "Ayurveda", "systemOfMedicineCode": "AYU",
+      "stateName": "Kerala", "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590",
+      "address": "5 Sample Street", "pincode": "691 001",
+      "latitude": "0", "longitude": "0", "hasIcuBeds": "No", "abdmSoftware": "No",
+      "specialities": "General Medicine, General Medicine, Ayush"
+    },
+    {
+      "facilityId": "IN3200000001", "facilityName": "Example Heart and Multispeciality Hospital",
+      "facilityStatus": "Approved", "ownership": "Private", "ownershipCode": "P",
+      "facilityType": "Hospital", "facilityTypeCode": "HOSP",
+      "systemOfMedicine": "Modern Medicine", "systemOfMedicineCode": "MM",
+      "stateName": "Kerala", "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590",
+      "address": "12 Example Road, Chinnakada", "pincode": "691001",
+      "specialities": ["Orthopaedics"]
+    },
+    {
+      "facilityId": "IN3200000003", "facilityName": "Bad Pincode Hospital",
+      "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590", "pincode": "69100"
+    },
+    {
+      "facilityId": "IN3200000004", "facilityName": "Too Many ICU Beds Hospital",
+      "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590",
+      "totalBeds": 10, "icuBeds": 12
+    },
+    {
+      "facilityId": "IN3200000005", "facilityName": "Bad Latitude Hospital",
+      "stateLGDCode": "32", "districtName": "Kollam", "districtLGDCode": "590",
+      "latitude": "98.5", "longitude": "76.5"
+    },
+    {
+      "facilityId": "IN3200000006", "facilityName": "No District Hospital", "stateLGDCode": "32"
+    },
+    {
+      "facilityId": "IN0300000007", "facilityName": "Wrong State Code Hospital",
+      "stateLGDCode": "32", "districtLGDCode": "590"
+    },
+    {
+      "facilityId": "BADID", "facilityName": "Broken Id Hospital",
+      "stateLGDCode": "32", "districtLGDCode": "590"
+    }
+  ],
+  "totalFacilities": 9,
+  "numberOfPages": 3,
+  "message": "Request processed successfully"
+}
